@@ -50,13 +50,16 @@
             <h6>
             Web Designer   |   Web Developer   |   Full-Stack Engineer 
             </h6>
+            <input class="button u-half-width btn1" type="submit" value="View My CV">
+            <input class="button u-half-width btn2" type="submit" value="Get In Touch">
         </div>
+        
     </header>
 
     <section class="about" id="about">
         <div class="container">
             <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-                <img src="images/profile.jpg" alt="Me">
+                <img src="images/profile-img.jpg" alt="Me">
             </div>
             <div class="about-details" data-aos="fade-left" data-aos-delay="600">
                 <div class="about-heading">
@@ -76,7 +79,7 @@
                     me at the bottom of this webpage or find me on social right here:
                 </p>
                     <div class="social-media">
-                            <ul class="nav-list">
+                            <ul class="nav-list" id="socials">
                                 <li>
                                     <a href="#" class="icon-link">
                                         <i class="fab fa-facebook-square"></i>
@@ -111,7 +114,7 @@
                         <i class="fas fa-palette"></i>
                     </div>
                     <h1>UI/UX & Web Design</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, laboriosam!
+                    <p>I use Figma and other design programs to create a pixel-perfect website or app layout, intuitive for users and other developers.
 
                     </p>
 
@@ -121,7 +124,7 @@
                         <i class="fas fa-code"></i>
                     </div>
                     <h1>Web Development</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, laboriosam!
+                    <p>I code and build responsive, well-optimized websites using many different tech stacks, in order to achieve what a client needs using the best development practices along the way.
 
                     </p>
 
@@ -131,7 +134,7 @@
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h1>Digital Marketing</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, laboriosam!
+                    <p>I am well-versed in SEO, building and maintaining an online presence, and can help your business grow through affiliate sites and/or proper coding technique/refactors.
 
                     </p>
 
@@ -141,7 +144,7 @@
                         <i class="fas fa-mobile"></i>
                     </div>
                     <h1>Mobile Development</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, laboriosam!
+                    <p>I am just getting started in the Mobile App department, looking to release my first mobile app for fitness enthusiasts in early 2020, but will tackle any project that comes along.
 
                     </p>
 
@@ -161,41 +164,44 @@
                             <img src="images/portitem1.PNG" alt="">
                     </div>
                     <div class="portfolio-description" data-aos="fade-left" data-aos-delay="300">
-                        <h6>Web Design</h6>
-                        <h1>Product Layout</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Quae amet, accusamus dolore odit ipsam tempora obcaecati 
-                            non quas exercitationem sapiente.
+                        <h6>Stack: MEN (MongoDB, Express, Node.js)</h6>
+                        <h1>TheCampSite</h1>
+                        <p>A culminating project for a bootcamp course, I created and deployed a Full-Stack Web Application to find and create a database of campsites worldwide. Features user auth, RESTful routing, and more.
                         </p>
-                        <a href="#" class='cta'>View Details</a>
+                        <input class="button u-half-width" type="submit" value="View on GitHub">
+                        <input class="button u-half-width" type="submit" value="Live Demo">
                     </div>
                 </div>
+                <hr>
                 <div class="portfolio-item">
                     <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="600">
-                        <h6>Web Design</h6>
-                        <h1>Product Layout</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Quae amet, accusamus dolore odit ipsam tempora obcaecati 
-                            non quas exercitationem sapiente.
+                        <h6>Stack: CMS and Custom Code</h6>
+                        <h1>Matthew Ryan Psychologist</h1>
+                        <p>A client has allowed me to show my work on his website here, 
+                            created with a CMS called SquareSpace and maintained regularly by myself.
+                             Updating blog posts, styling the website to the client's needs, and continual support with your website is a guarantee from me. 
                         </p>
-                        <a href="#" class='cta'>View Details</a>
+                        <input class="button u-half-width" type="submit" value="View on GitHub">
+                        <input class="button u-half-width" type="submit" value="Live Demo">
                     </div>
                     <div class="portfolio-img" data-aos="fade-left" data-aos-delay="600">
                         <img src="images/portitem1.PNG" alt="">
                     </div>
                 </div>
+                <hr>
                 <div class="portfolio-item">
                     <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="900">
                         <img src="images/portitem1.PNG" alt="">
                     </div>
                     <div class="portfolio-description" data-aos="fade-left" data-aos-delay="900">
-                        <h6>Web Design</h6>
-                            <h1>Product Layout</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing
-                                    elit. Quae amet, accusamus dolore odit ipsam tempora obcaecati 
-                                    non quas exercitationem sapiente.
+                        <h6>Stack: MERN (Mongo, Express, React, and Node)</h6>
+                            <h1>BodyBuildr</h1>
+                                <p>Work in Progress - This will be a full-stack application for both web and mobile. 
+                                    The design and mockups are done in Figma and it's written using React. It will be a fitness lover's app, 
+                                    and something I've looked for myself. So I thought, why not build it myself? COMING 2020
                                 </p>
-                            <a href="#" class='cta'>View Details</a>
+                                <input class="button u-half-width" type="submit" value="View on GitHub">
+                                <input class="button u-half-width" type="submit" value="Live Demo">
                     </div>
                 </div>
             </div>
@@ -210,25 +216,20 @@
                 <div class="timeline" data-aos="fade-down" data-aos-delay="300">
                     <ul>
                         <li class="date" data-date="2018 - Present">
-                            <h1>jBeck Web Design</h1>
+                            <h1>jBeck Digital</h1>
                             
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Optio in cumque aspernatur assumenda blanditiis. Reiciendis 
-                                tenetur vero ullam qui saepe?</p>
+                            <p>Freelance Web Development Company started and run by me, Jacob Beck. I create, deploy, and maintain websites for clients locally and internationally.</p>
                             <hr>
                         </li>
                         <li class="date" data-date="2018 - 2019">
                             <h1>Modern Web Development Bootcamp</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Optio in cumque aspernatur assumenda blanditiis. Reiciendis 
-                                tenetur vero ullam qui saepe?</p>
+                            <p>Approximately 1000 hours of self-study while learning through a great instructor, Colt Steele. He taught the basics of web development while I expanded 
+                                my knowledge through a variety of resources and documentation. I completed the bootcamp in July 2019.</p>
                             <hr>
                         </li>
                         <li class="date" data-date="2017 - 2019">
                             <h1>FreeCodeCamp</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Optio in cumque aspernatur assumenda blanditiis. Reiciendis 
-                                tenetur vero ullam qui saepe?</p>
+                            <p>I've used FreeCodeCamp as a launch pad since the beginning, and have currently received 3 of the 6 available certifications from the website: Responsive Web Design, JavaScript Data Structures and Algorithms, and the Front End Libraries Certification, totalling around 900 hours of self-study. (Definitely more...)</p>
                             <hr>
                         </li>
                     </ul>
@@ -242,21 +243,25 @@
                     <h1>Contact</h1>
                     <h6>Let's Work Together.</h6>
                 </div>
-                <form action="" data-aos="fade-up" data-aos-delay="900">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter Your Name.." required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="What's Your Email Address?" required>
-                    <label for="services">Services:</label>
-                    <select name="services" id="services">
-                        <option value="">Web Design</option>
-                        <option value="">Web Development</option>
-                        <option value="">Other Project or Offer</option>
-                    </select>
-                    <label for="subject">Subject:</label>
-                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+                <form class='contact-form'>
+                        <div class="row">
+                          <div class="six columns">
+                            <label for="name">Your Name</label>
+                            <input class="u-full-width" type="name" placeholder="What's your name?" id="name" required>
+                          </div>
+                          <div class="six columns">
+                                <label for="email">Your Email</label>
+                                <input class="u-full-width" type="email" placeholder="What's your email address?" id="email" required>
+                          </div>
+                        </div>
+                        <label for="Message">Message</label>
+                        <textarea class="u-full-width" placeholder="What can I help you with?" id="message" required></textarea>
+                        <label class="example-send-yourself-copy">
+                          <input type="checkbox">
+                          <span class="copy-self">Send a copy to yourself</span>
+                        </label>
+                        <input class="button u-half-width" type="submit" value="Submit">
+                      </form>
             </div>
     </section>
 
@@ -264,7 +269,7 @@
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
         </div>
-        <p>&copy 2019 - jBeck Creative - All Rights Reserved</p>
+        <p class="copy">&copy 2019 - jBeck Digital - All Rights Reserved</p>
     </footer>
 
 
